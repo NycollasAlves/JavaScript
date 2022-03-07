@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Passos</title>
+</head>
+<body>
+    <h1>
+        Iniciando Estudos DOM
+    </h1>
+    <p id="msg">Aqui vai o Resultado</p>
+    <p>Aprendendo a Usar o <strong>DOM</strong> em JavaScript</p>
+    <div>Clique em Mim</div>
+    <script>
+        /*var d = window.document.getElementById('msg')
+        d.style.color = 'green'*/
+        var d = window.document.querySelector('msg')[0]
+        d.style.color =  'blue'
+    </script>
+</body>
+</html>
